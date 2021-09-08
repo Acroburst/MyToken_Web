@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <title>MyToken-TKN</title>
+
+    <link href='./mytoken.css' rel='stylesheet' type='text/css'>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+    <script src="./index.js"></script>
+  </head>
+
+  <body>
+    <h1>My Token (TKN) Information - Binance Smart Chain Testnet</h1>
+
+    <h2>Account: <span class="showAccount"></span></h2>
+    <button class="enableEthereumButton"><span class="enableEthereumButton"></span></button>
+
+    <div class="function">
+        <h2 class="sub-header">Get Total Supply: <span class="tokenSupply"></span></h2>
+          <button class="totalSupplyButton">Get Total Supply</button>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(60,60,60);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+h1 {
+  border-left: 4px solid mediumpurple;
+  background-color: lightgrey;
+}
+
+h2 {
+  color: whitesmoke;
+}
+
+button {
+  margin-top: 20px;
+  line-height: 60px;
+  font-weight: bold;
+  padding: 0 40px;
+  background: dodgerblue;
+  border: none;
+  text-align: center;
+  color: whitesmoke;
+}
+button:hover {
+  background: royalblue;
+  cursor: pointer;
+}
